@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">点点锁屏</string>
+    <string name="app_name">Lock</string>
     <string name="sample_device_admin_description">Only after opening administrator can be used</string>
     <string name="sample_device_admin">点点锁屏</string>
 </resources>

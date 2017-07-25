@@ -1,4 +1,4 @@
-package com.buaa.yyg.ddlock;
+package com.buaa.yyg.lock;
 
 import android.app.admin.DeviceAdminReceiver;
 

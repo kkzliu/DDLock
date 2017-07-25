@@ -1,4 +1,4 @@
-package com.buaa.yyg.ddlock;
+package com.buaa.yyg.lock;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         dpm = (DevicePolicyManager) getSystemService(DEVICE_POLICY_SERVICE);
-        component = new ComponentName(this, MyReceiver.class);
+        component = new ComponentName(this, com.buaa.yyg.lock.MyReceiver.class);
 
         if (dpm.isAdminActive(component)) {
             dpm.lockNow();
